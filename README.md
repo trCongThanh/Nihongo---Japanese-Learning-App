@@ -58,3 +58,40 @@ The app combines traditional language-learning methods with intelligent AI featu
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/trCongThanh/Nihongo---Japanese-Learning-App.git](https://github.com/trCongThanh/Nihongo---Japanese-Learning-App.git)
+2. Open the project in Android Studio  
+
+3. Sync Gradle and install dependencies  
+
+4. Run the application on a physical device or emulator  
+
+---
+
+## 🏗 Application Architecture
+
+The application is built using modern Android development technologies:
+
+- **Jetpack Compose** – Modern declarative UI toolkit  
+- **MVVM Architecture** – Clean separation of concerns  
+- **Firebase** – Firestore, Realtime Database, Authentication, Storage  
+- **Kotlin Coroutines** – Asynchronous programming  
+- **Navigation Component** – In-app navigation management  
+- **AI Integration** – Intelligent content generation and learning automation  
+
+---
+
+## 🎯 Project Objectives
+
+- Provide a structured and scalable Japanese learning platform  
+- Integrate AI to enhance personalization and automation  
+- Build an interactive and competitive learning community  
+- Maintain clean architecture and modern Android standards  
+
+---
+
+## 👨‍💻 Authors
+
+### Trương Công Thành  
+GitHub: https://github.com/trCongThanh  
+
+### Trần Thanh Phong  
+GitHub: https://github.com/Rynnne3125  
