@@ -1,0 +1,105 @@
+@startuml Nihongo Detailed Use Case Diagram
+
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam roundcorner 20
+skinparam linetype ortho
+skinparam usecase {
+  BackgroundColor #E8F5E9
+  BorderColor #4CAF50
+  ArrowColor #1B5E20
+  FontColor #1B5E20
+}
+
+' Điều chỉnh bố cục tổng thể
+skinparam packageStyle rectangle
+skinparam nodesep 10
+skinparam ranksep 20
+
+actor "Người học" as User
+
+rectangle "Ứng dụng Nihongo" {
+  ' Sắp xếp các package theo chiều dọc thay vì chiều ngang
+  together {
+    package "Xác thực" {
+      usecase "Đăng nhập" as UC1
+      usecase "Đăng ký" as UC2
+      usecase "Xác thực OTP" as UC2_1
+      usecase "Đăng xuất" as UC3
+    }
+    
+    package "Học tập" {
+      usecase "Xem danh sách khóa học" as UC4
+      usecase "Xem chi tiết khóa học" as UC5
+      usecase "Học bài trong khóa học" as UC6
+      usecase "Xem nội dung bài học" as UC7
+      usecase "Làm bài kiểm tra" as UC8
+      usecase "Xem kết quả kiểm tra" as UC9
+    }
+  }
+  
+  together {
+    package "Flashcard" {
+      usecase "Học Hiragana" as UC10
+      usecase "Học Katakana" as UC11
+      usecase "Học Kanji" as UC12
+      usecase "Học Từ vựng" as UC13
+      usecase "Thiết lập phiên học" as UC14
+      usecase "Thực hành flashcard" as UC15
+    }
+    
+    package "Cộng đồng" {
+      usecase "Xem bảng xếp hạng" as UC16
+      usecase "Tham gia nhóm chat" as UC17
+      usecase "Tạo cuộc thảo luận" as UC18
+      usecase "Nhắn tin riêng" as UC19
+    }
+    
+    package "Cá nhân" {
+      usecase "Xem hồ sơ cá nhân" as UC20
+      usecase "Cập nhật thông tin" as UC21
+      usecase "Theo dõi tiến độ học tập" as UC22
+      usecase "Xem khóa học đã đăng ký" as UC23
+    }
+  }
+}
+
+' Xác thực
+User --> UC1
+User --> UC2
+User --> UC3
+UC2 ..> UC2_1 : <<include>>
+
+' Học tập
+User --> UC4
+UC4 ..> UC5 : <<extend>>
+User --> UC6
+UC6 ..> UC7 : <<include>>
+UC6 ..> UC8 : <<include>>
+UC8 ..> UC9 : <<include>>
+
+' Flashcard
+User --> UC10
+User --> UC11
+User --> UC12
+User --> UC13
+UC10 ..> UC14 : <<include>>
+UC11 ..> UC14 : <<include>>
+UC12 ..> UC14 : <<include>>
+UC13 ..> UC14 : <<include>>
+UC14 ..> UC15 : <<include>>
+
+' Cộng đồng
+User --> UC16
+User --> UC17
+User --> UC18
+User --> UC19
+
+' Cá nhân
+User --> UC20
+User --> UC21
+User --> UC22
+User --> UC23
+
+@enduml

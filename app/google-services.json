@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72338859954",
+    "firebase_url": "https://nihongo-ae96a-default-rtdb.firebaseio.com",
+    "project_id": "nihongo-ae96a",
+    "storage_bucket": "nihongo-ae96a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72338859954:android:f7cac782a6bab63f8466ab",
+        "android_client_info": {
+          "package_name": "com.example.nihongo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72338859954-cj3aed1ituu0tjgns3ki39dp79s2lllu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nihongo",
+            "certificate_hash": "cc1fe32df0132fc5a8b534be7efda64c521427e1"
+          }
+        },
+        {
+          "client_id": "72338859954-cho6hvpt333guhkf6qe7jg0iftnuhh6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGoC_xbZOvCal3LktgHdojOd0VmVzD0IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72338859954-cho6hvpt333guhkf6qe7jg0iftnuhh6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

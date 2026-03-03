@@ -1,0 +1,9 @@
+Flask
+flask-cors
+requests
+cloudinary
+google-generativeai
+python-dotenv
+edge-tts
+pygame
+aiofiles
