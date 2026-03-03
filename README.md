@@ -1,56 +1,60 @@
+# Nihongo – Japanese Learning App 🇯🇵📱
 
+**Nihongo** is a modern Android mobile application designed to help learners study Japanese effectively through structured courses, interactive flashcards, AI-powered tools, and a collaborative learning community. 
 
-[Nihongo App]
+The app combines traditional language-learning methods with intelligent AI features to deliver a personalized and engaging experience for users at all levels.
 
-## Giới thiệu
+---
 
-Nihongo là ứng dụng di động Android giúp người dùng học tiếng Nhật một cách hiệu quả. Ứng dụng cung cấp nhiều tính năng học tập, bao gồm khóa học có cấu trúc, flashcard, cộng đồng học tập và theo dõi tiến độ cá nhân.
+## ✨ Core Features
 
-## Tính năng chính
+### 🔐 User Authentication
+* **Secure Registration & Login**
+* **OTP Verification**
+* **Firebase Authentication Integration**
 
-- **Xác thực người dùng**: Đăng ký, đăng nhập, xác thực OTP
-- **Học tập có cấu trúc**: Khóa học, bài học, bài kiểm tra
-- **Flashcard**: Học Hiragana, Katakana, Kanji, Từ vựng
-- **Cộng đồng**: Bảng xếp hạng, nhóm chat, thảo luận, tin nhắn riêng
-- **Hồ sơ cá nhân**: Theo dõi tiến độ học tập, cập nhật thông tin
+### 📚 Structured Learning System
+* **Organized Courses & Lessons**
+* **Quizzes & Assessments**
+* **Learning Path Progression Tracking**
 
-## Yêu cầu hệ thống
+### 🧠 AI-Powered Learning Features
+* **AI Chatbot:** Interactive Japanese learning assistant for Q&A and explanations.
+* **AI Flashcard Generator:** Automatically generates smart flashcards based on topics or content.
+* **AI Quiz Generator:** Dynamically creates quizzes for practice and evaluation.
+* **AI Course Generator (Admin):** Allows administrators to generate structured learning courses using AI.
 
-- Android 6.0 (API level 24) trở lên
-- Kết nối internet
+### 🗂 Flashcard System
+* **Categories:** Hiragana, Katakana, Kanji, and Vocabulary.
+* **Spaced Repetition:** Built-in support to optimize memory retention.
 
-### Yêu cầu
+### 🌍 Community Features
+* **Leaderboard System**
+* **Group Chat & Public Discussions**
+* **Private Messaging**
 
-- Android Studio Iguana | 2023.2.1 trở lên
-- JDK 17
-- Kotlin 1.9+
+### 👤 User Profile
+* **Personal Learning Progress Tracking**
+* **Achievement System**
+* **Profile Customization**
 
-### Cài đặt môi trường phát triển
+---
 
-1. Clone repository:
-```
-git clone https://github.com/Rynnne3125/Nihongo.git
-```
+## 🛠 System Requirements
 
-2. Mở project trong Android Studio
+### 📱 Mobile Requirements
+* **OS:** Android 7.0 (API Level 24) or higher
+* **Network:** Internet connection required
 
-3. Đồng bộ Gradle và cài đặt các dependencies
+### 💻 Development Requirements
+* **IDE:** Android Studio Iguana | 2023.2.1 or later
+* **Java:** JDK 17
+* **Kotlin:** 1.9+
 
-4. Chạy ứng dụng trên thiết bị hoặc máy ảo
+---
 
-## Kiến trúc ứng dụng
+## 🚀 Installation Guide
 
-Ứng dụng được xây dựng với:
-- **Jetpack Compose** - UI toolkit hiện đại
-- **Firebase** -  Firestore, Realtime Database, Storage
-- **MVVM** - Mô hình kiến trúc
-- **Coroutines** - Xử lý bất đồng bộ
-- **Navigation Component** - Điều hướng trong ứng dụng
-
-
-
-## Liên hệ
-
-Trần Thanh Phong - [https://www.facebook.com/tran.phong.361194/) - phongtt.23it@vku.udn.vn
-
-Project Link: [https://github.com/Rynnne3125/Nihongo](https://github.com/Rynnne3125)
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/trCongThanh/Nihongo---Japanese-Learning-App.git](https://github.com/trCongThanh/Nihongo---Japanese-Learning-App.git)
